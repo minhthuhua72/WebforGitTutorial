@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Git Tutorial, CONTACT">
+    <meta name="description" content="">
+    <meta name="page_type" content="np-template-header-footer-from-plugin">
+    <title>Basic Commands</title>
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+<link rel="stylesheet" href="Basic-Commands.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 3.0.9, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700">
+    
+    
+    
+    
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "Site1",
+		"url": "index.html"
+}</script>
+    <meta property="og:title" content="Basic Commands">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#478ac9">
+    <link rel="canonical" href="index.html">
+    <meta property="og:url" content="index.html">
+  </head>
+  <body class="u-body"><header class="u-clearfix u-header u-white u-header" id="sec-d6d2"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <h1 class="u-align-justify u-custom-font u-font-oswald u-text u-text-default u-text-palette-1-base u-title u-text-1">Git Tutorial</h1>
+        <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
+          <div class="menu-collapse u-custom-font u-font-oswald" style="font-size: 1.5rem; letter-spacing: 0px; text-transform: uppercase; font-weight: 500;">
+            <a class="u-active-palette-1-base u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-border-no-left u-border-no-right u-border-no-top u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-hover-palette-1-light-1 u-nav-link u-text-active-white u-text-grey-90 u-text-hover-white" href="#">
+              <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;"><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</symbol>
+</defs></svg>
+            </a>
+          </div>
+          <div class="u-custom-menu u-nav-container">
+            <ul class="u-custom-font u-font-oswald u-nav u-spacing-2 u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-active-palette-1-base u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-hover-palette-1-light-1 u-nav-link u-text-active-white u-text-grey-90 u-text-hover-white" href="Overview.html" style="padding: 10px 20px;">Overview</a>
+</li><li class="u-nav-item"><a class="u-active-palette-1-base u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-hover-palette-1-light-1 u-nav-link u-text-active-white u-text-grey-90 u-text-hover-white" href="Installation.html" style="padding: 10px 20px;">Installation</a>
+</li><li class="u-nav-item"><a class="u-active-palette-1-base u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-hover-palette-1-light-1 u-nav-link u-text-active-white u-text-grey-90 u-text-hover-white" href="Basic-Commands.html" style="padding: 10px 20px;">Basic Commands</a>
+</li><li class="u-nav-item"><a class="u-active-palette-1-base u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-hover-palette-1-light-1 u-nav-link u-text-active-white u-text-grey-90 u-text-hover-white" href="Branching.html" style="padding: 10px 20px;">Branching</a>
+</li><li class="u-nav-item"><a class="u-active-palette-1-base u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-hover-palette-1-light-1 u-nav-link u-text-active-white u-text-grey-90 u-text-hover-white" href="Resolve-Conflicts.html" style="padding: 10px 20px;">Resolve Conflicts</a>
+</li></ul>
+          </div>
+          <div class="u-custom-menu u-nav-container-collapse">
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Overview.html" style="padding: 10px 20px;">Overview</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Installation.html" style="padding: 10px 20px;">Installation</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Basic-Commands.html" style="padding: 10px 20px;">Basic Commands</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Branching.html" style="padding: 10px 20px;">Branching</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Resolve-Conflicts.html" style="padding: 10px 20px;">Resolve Conflicts</a>
+</li></ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+      </div></header>
+    <section class="u-clearfix u-palette-1-light-3 u-section-1" id="sec-7ba5">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-custom-font u-font-oswald u-text u-text-default u-title u-text-1">Basic Git Commands</h1>
+        <img src="command1.png" alt="" class="u-image u-image-default u-image-1">
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-section-2" id="sec-6f64">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h2 class="u-custom-font u-font-oswald u-text u-text-palette-2-base u-text-1">CONFIG GIT</h2>
+        <p class="u-align-center u-custom-font u-font-arial u-text u-text-black u-text-2">
+          <span style="font-size: 1.5rem;" class="u-text-palette-2-base">The command is used to specify Git configuration&nbsp;settings.&nbsp;&nbsp;<br>Step 1:
+          </span>
+          <span style="font-size: 1.5rem; font-weight: normal;"> Open Terminal on Mac.</span>
+          <br>Command + Space then type "Terminal"<br>
+          <span style="font-size: 1.5rem;" class="u-text-palette-2-base">Step 2:</span>
+          <br>
+          <span class="u-text-palette-1-base">$ git --global user.name "&lt;GitHub username&gt;"</span>
+          <br>
+          <span class="u-text-palette-1-base">$ git --global user.email &lt;GitHub email&gt;</span>
+          <br>
+          <span style="font-size: 1.5rem;" class="u-text-palette-2-base">Step 3:</span>
+          <span style="font-size: 1.5rem; font-weight: normal;"> Once done, you can check the information.</span>
+          <br>
+          <span class="u-text-palette-1-base">$ git config --list</span>
+        </p>
+        <p class="u-align-justify u-custom-font u-font-arial u-text u-text-3">
+          <br>
+        </p>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-palette-2-light-3 u-section-3" id="carousel_3b4a">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <h2 class="u-custom-font u-font-oswald u-text u-text-palette-2-base u-text-1">GIT ADD</h2>
+        <p class="u-align-center u-custom-font u-font-arial u-text u-text-palette-2-base u-text-2">
+          <font color="#db545a">The command&nbsp;</font>adds new or changed files in your working directory to the Git staging area.<br>
+          <span style="font-size: 1.875rem;" class="u-text-palette-1-base">$ git add</span>
+          <br>Method 1: <span style="font-weight: normal;" class="u-text-black">Add a specific file.</span>
+          <br>
+          <span class="u-text-palette-1-base" style="font-size: 1.875rem;">$ git add &lt;filename&gt;</span>
+          <br>Method 2: <span class="u-text-black" style="font-weight: normal;">Add multiple files with spacing between files.</span>
+          <br>
+          <span style="font-size: 1.875rem;" class="u-text-palette-1-base">$ git add &lt;filename1&gt; &lt;filename2&gt;<br>
+          </span>Method 3: <span class="u-text-black" style="font-weight: normal;">Add all files with the same extension.</span>
+          <br>
+          <span class="u-text-palette-1-base" style="font-size: 1.875rem;">$ git add. &lt;extension&gt;</span>
+          <br>Method 4: <span style="font-weight: normal;" class="u-text-black">Add all files recursively.</span>
+          <br>
+          <span class="u-text-palette-1-base" style="font-size: 1.875rem;">$ git add .</span>
+        </p>
+        <p class="u-align-justify u-custom-font u-font-arial u-text u-text-3">
+          <br>
+        </p>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-section-4" id="carousel_a902">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <h2 class="u-custom-font u-font-oswald u-text u-text-palette-2-base u-text-1">GIT COMMIT</h2>
+        <p class="u-align-center u-custom-font u-font-arial u-text u-text-black u-text-2">
+          <span style="font-size: 1.5rem;" class="u-text-palette-2-base">The command is used to&nbsp;save the changes to the local repository.&nbsp;<br>
+            <span class="u-text-palette-1-base" style="font-size: 1.875rem;">$ git commit&nbsp;</span>
+          </span>
+          <br>
+          <span style="font-size: 1.5rem; font-weight: normal;">Commit snapshot from staging area to permanent repository.</span>
+          <br>
+          <span class="u-text-palette-1-base">$ git commit -m "&lt;meaningful message&gt;"</span>
+          <br>
+          <span style="font-size: 1.5rem; font-weight: normal;">*Message should be a short description which identifies what the snapshot does.</span>
+        </p>
+        <p class="u-align-justify u-custom-font u-font-arial u-text u-text-3">
+          <br>
+        </p>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-palette-2-light-3 u-section-5" id="carousel_9b28">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h2 class="u-custom-font u-font-oswald u-text u-text-palette-2-base u-text-1">GIT PUSH</h2>
+        <p class="u-align-center u-custom-font u-font-arial u-text u-text-palette-1-base u-text-2">
+          <span style="font-size: 1.5rem;">
+            <span class="u-text-palette-2-base">The command is used to transfer files from the local repository to the remote repository.<br>
+            </span>
+            <span style="font-size: 1.875rem;">$ git push -u origin &lt;branch name&gt;</span>
+          </span>
+          <br>
+          <span style="font-size: 24px; font-weight: normal;" class="u-text-black">If your local branch already exists on the remote repository.</span>
+          <br>$ git push origin &lt;branch name&gt;
+        </p>
+        <p class="u-align-justify u-custom-font u-font-arial u-text u-text-3">
+          <br>
+        </p>
+      </div>
+    </section>
+    
+    
+    <footer class="u-align-center u-clearfix u-footer u-palette-1-base u-footer" id="sec-0329"><div class="u-clearfix u-sheet u-sheet-1">
+        <h2 class="u-custom-font u-font-oswald u-text u-text-1">CONTACT</h2><span class="u-border-2 u-border-white u-icon u-icon-circle u-spacing-10 u-text-white u-icon-1" data-href="mailto:s3878667@rmit.edu.vn"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-8f83"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 512 512" x="0px" y="0px" id="svg-8f83" style="enable-background:new 0 0 512 512;"><g><g><g><path d="M10.688,95.156C80.958,154.667,204.26,259.365,240.5,292.01c4.865,4.406,10.083,6.646,15.5,6.646     c5.406,0,10.615-2.219,15.469-6.604c36.271-32.677,159.573-137.385,229.844-196.896c4.375-3.698,5.042-10.198,1.5-14.719     C494.625,69.99,482.417,64,469.333,64H42.667c-13.083,0-25.292,5.99-33.479,16.438C5.646,84.958,6.313,91.458,10.688,95.156z"></path><path d="M505.813,127.406c-3.781-1.76-8.229-1.146-11.375,1.542C416.51,195.01,317.052,279.688,285.76,307.885     c-17.563,15.854-41.938,15.854-59.542-0.021c-33.354-30.052-145.042-125-208.656-178.917c-3.167-2.688-7.625-3.281-11.375-1.542     C2.417,129.156,0,132.927,0,137.083v268.25C0,428.865,19.135,448,42.667,448h426.667C492.865,448,512,428.865,512,405.333     v-268.25C512,132.927,509.583,129.146,505.813,127.406z"></path>
+</g>
+</g>
+</g></svg></span><span class="u-border-2 u-border-white u-icon u-icon-circle u-spacing-10 u-text-white u-icon-2" data-href="tel:0372796010"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 513.64 513.64" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-fb30"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 513.64 513.64" x="0px" y="0px" id="svg-fb30" style="enable-background:new 0 0 513.64 513.64;"><g><g><path d="M499.66,376.96l-71.68-71.68c-25.6-25.6-69.12-15.359-79.36,17.92c-7.68,23.041-33.28,35.841-56.32,30.72    c-51.2-12.8-120.32-79.36-133.12-133.12c-7.68-23.041,7.68-48.641,30.72-56.32c33.28-10.24,43.52-53.76,17.92-79.36l-71.68-71.68    c-20.48-17.92-51.2-17.92-69.12,0l-48.64,48.64c-48.64,51.2,5.12,186.88,125.44,307.2c120.32,120.32,256,176.641,307.2,125.44    l48.64-48.64C517.581,425.6,517.581,394.88,499.66,376.96z"></path>
+</g>
+</g></svg></span>
+      </div></footer>
+  </body>
+</html>
